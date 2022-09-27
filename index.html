@@ -94,19 +94,29 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>通过自己手写创建文章发布</p>
-<h2 id="在文件开头手动加入如下格式即可"><a href="#在文件开头手动加入如下格式即可" class="headerlink" title="在文件开头手动加入如下格式即可"></a>在文件开头手动加入如下格式即可</h2><h2 id="96"><a href="#96" class="headerlink" title="&#96;"></a>&#96;</h2><p>title: Hello World # 标题<br>date: 2019&#x2F;3&#x2F;26 hh:mm:ss # 时间<br>categories: # 分类</p>
-<ul>
-<li>Diary<br>tags: # 标签</li>
-<li>PS3</li>
-<li>Games</li>
-</ul>
+<ol>
+<li>在文件开头手动加入如下格式即可</li>
+</ol>
 <hr>
-<p>摘要</p>
-        
-          <p class="article-more-link">
-            <a href="/2022/09/27/new-post/#more">Read More</a>
-          </p>
-        
+<p>  title: Hello World # 标题<br>  date: 2019&#x2F;3&#x2F;26 hh:mm:ss # 时间<br>  categories: # 分类</p>
+<hr>
+<ol start="2">
+<li><p>发布：hexo g 生成页面 和 hexo d 部署发布</p>
+</li>
+<li><p>常用命令</p>
+</li>
+</ol>
+<ul>
+<li>hexo new “name”       # 新建文章</li>
+<li>hexo new page “name”  # 新建页面</li>
+<li>hexo g                # 生成页面</li>
+<li>hexo d                # 部署</li>
+<li>hexo g -d             # 生成页面并部署</li>
+<li>hexo s                # 本地预览</li>
+<li>hexo clean            # 清除缓存和已生成的静态文件</li>
+<li>hexo help             # 帮助</li>
+</ul>
+
       
     </div>
     <footer class="article-footer">
@@ -144,8 +154,18 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>通过<code>命令</code>创建新的文章发布</p>
-<h2 id="hexo-new-“文章名称”"><a href="#hexo-new-“文章名称”" class="headerlink" title="hexo new “文章名称”"></a>hexo new “文章名称”</h2><h2 id="打开md文件进行编辑"><a href="#打开md文件进行编辑" class="headerlink" title="打开md文件进行编辑"></a>打开md文件进行编辑</h2><h2 id="发布：hexo-g-生成页面-和-hexo-d-部署发布"><a href="#发布：hexo-g-生成页面-和-hexo-d-部署发布" class="headerlink" title="发布：hexo g 生成页面 和 hexo d 部署发布"></a>发布：hexo g 生成页面 和 hexo d 部署发布</h2>
+        <p>创建新的文章发布</p>
+<ol>
+<li><p>通过<code>命令 hexo new &quot;文章名称&quot;</code>创建新的文章发布</p>
+</li>
+<li><p>打开md文件进行编辑</p>
+</li>
+<li><p>hexo s 启动预览</p>
+</li>
+<li><p>发布：hexo g 生成页面 和 hexo d 部署发布</p>
+</li>
+</ol>
+
       
     </div>
     <footer class="article-footer">
